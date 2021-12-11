@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;  
+}
+
+header{
+    text-align: center;
+}
+
+body{
+    background-color:blanchedalmond;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu{
+    justify-content: center;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 100px;
+    text-decoration: none;
+}
+li a:hover:not(.biopage) {
+    background-color: #111;
+}
+
+.mainpage {
+    background-color: #4CAF50;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+  }
+
+#all {
+    text-align: center;
+    justify-content: center;
+}
